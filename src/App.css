@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.form{
+  border: 5px dotted salmon;
+  width: 500px;
+  height: 300px;
+  margin: 20px auto;
+  background-color: lightsalmon;
+  box-shadow: 10px 10px 15px salmon;
+}
+
+.form_label{
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.form_input{
+  width: 63%;
+  margin-top: 10px;
+  margin-left: 10px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.form_button{
+  width: 80px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 210px;
+  background-color: lightcoral;
+  color: black;
+  box-shadow: 3px 3px 5px black;
+  border: 1px solid white;  
+  border-radius: 10%;
+}
+
+.form_button:hover{
+  background-color: lightsalmon;
+  border: 2px solid black;
+  color: black;
+}
+
+.form_p{
+  font-size: 20px;
+  margin-left: 15px;
+}
